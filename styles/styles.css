@@ -7,7 +7,7 @@ nav {
 
 nav a {
     color: white;
-    display: flow-root;
+    display: block;
     padding: 20px;
 }
 
@@ -24,7 +24,7 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
 }
 
 main {
@@ -52,6 +52,7 @@ main img {
     height: auto;
     border: 2px solid blocks;
     padding: 2px;
+    box-shadow: 20px;
 }
 
 p {
