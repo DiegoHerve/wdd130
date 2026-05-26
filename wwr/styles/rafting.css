@@ -1,0 +1,74 @@
+:root {
+    --primary-color: blue;
+    --secondary-color: skyblue;
+    --accent1-color: rgb(27, 226, 27);
+    --accent2-color: rgb(177, 97, 97);
+    --heading-font: georgia, arial, verdana;
+    --body-font: arial, verdana, helvetica;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent2-color);
+}
+
+header, main, footer {
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 2px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+article {
+    position: absolute;
+    top: 300px;
+    center: 20px;
+    padding: 2px;
+    width: 800px;
+    background-color: green;
+}
+
+.hero article > img {
+    float: right;
+    width: 125px;
+    margin-left: 10px;
+}
