@@ -1,10 +1,10 @@
 :root {
-    --primary-color: blue;
-    --secondary-color: skyblue;
+    --primary-color:blue;
+    --secondary-color: navy;
     --accent1-color: rgb(27, 226, 27);
     --accent2-color: rgb(177, 97, 97);
     --heading-font: georgia, arial, verdana;
-    --body-font: arial, verdana, helvetica;
+    --body-font: arial;
 }
 
 *{
@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent2-color);
+    color: var(--primary-color);
 }
 
 header, main, footer {
@@ -30,11 +30,13 @@ h1, h2 {
 
 nav, p, section, article {
     margin: 16px;
-    padding: 2px;
+    padding: 10px;
 }
 
 .socialmedia a {
     text-decoration: none;
+    width: 35px;
+    height: auto;
 }
 
 .hero {
@@ -53,7 +55,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 2;
     background-color: var(--accent1-color);
     color: #fff;
 }
@@ -61,14 +63,18 @@ h1 {
 article {
     position: absolute;
     top: 300px;
-    center: 20px;
+    left: 30px;
     padding: 2px;
     width: 800px;
-    background-color: green;
+    background-color:#fff;
 }
 
-.hero article > img {
+.hero article  img {
     float: right;
-    width: 125px;
+    width: 270px;
     margin-left: 10px;
+}
+
+.copy {
+    text-align: center;
 }
