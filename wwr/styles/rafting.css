@@ -13,6 +13,17 @@
     box-sizing: border-box;
 }
 
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
 body {
     font-family: var(--body-font);
     color: var(--primary-color);
@@ -55,26 +66,22 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 2;
+    opacity: 1;
     background-color: var(--accent1-color);
     color: #fff;
 }
 
 article {
     position: absolute;
-    top: 300px;
+    top: 100px;
     left: 30px;
     padding: 2px;
-    width: 800px;
+    width: 900px;
     background-color:#fff;
 }
 
 .hero article  img {
     float: right;
-    width: 270px;
+    width: 900px;
     margin-left: 10px;
-}
-
-.copy {
-    text-align: center;
 }
