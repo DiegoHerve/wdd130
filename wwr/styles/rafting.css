@@ -1,5 +1,5 @@
 :root {
-    --primary-color:blue;
+    --primary-color: blue;
     --secondary-color: navy;
     --accent1-color: rgb(27, 226, 27);
     --accent2-color: rgb(177, 97, 97);
@@ -7,7 +7,7 @@
     --body-font: arial;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,33 +15,52 @@
 
 header {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 100px;
+    grid-template-columns: repeat(4 1fr);
     align-items: center;
-    width: 900px;
-    margin: 0 auto;
-    padding: 10px;
 }
 
+header nav {
+    display: grid;
+    grid-gap: 50px;
+    font-size: 2rem;
+}
+
+header img {
+    display: grid;
+    font-size: 60px;
+    align-items: left;
+    margin: 10px 5px;
+}
 
 body {
     font-family: var(--body-font);
     color: var(--primary-color);
 }
 
-header, main, footer {
-    width: 900px;
+header,
+main,
+footer {
+    width: 1200px;
     margin: 0 auto;
 }
 
-h1, h2 {
+footer nav {
+    display: grid;
+    font-size: 1.5rem;
+}
+
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
 
-nav, p, section, article {
-    margin: 16px;
-    padding: 10px;
+nav,
+p,
+section,
+article {
+    margin: 16;
+    padding: 10;
 }
 
 .socialmedia a {
@@ -52,10 +71,11 @@ nav, p, section, article {
 
 .hero {
     position: relative;
+
 }
 
 .hero img {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: block;
 }
@@ -77,10 +97,10 @@ article {
     left: 30px;
     padding: 2px;
     width: 900px;
-    background-color:#fff;
+    background-color: #fff;
 }
 
-.hero article  img {
+.hero article img {
     float: right;
     width: 900px;
     margin-left: 10px;
