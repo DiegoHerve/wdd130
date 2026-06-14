@@ -77,7 +77,7 @@ article {
     display: block;
 }
 
-h1 {
+.hero h1 {
     display: flex;
     position: absolute;
     top: 20px;
@@ -106,16 +106,3 @@ article {
     width: 900px;
     margin-left: 10px;
 }
-
-#row-container {
-    display: flex;
-    /* Turns on the side-by-side layout */
-    align-items: center;
-    /* Perfectly centers text and image vertically */
-    gap: 30px;
-    /* Creates a clean gap between text and image */
-    max-width: 1000px;
-    /* Prevents the layout from getting too wide */
-    margin: 0 auto;
-    /* Centers the whole container on the screen */
-    padding: 20px;
