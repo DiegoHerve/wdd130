@@ -3,7 +3,6 @@ nav {
     padding: 10px;
 
 }
-}
 
 nav a {
     color: white;
@@ -16,9 +15,9 @@ h1 {
 }
 
 img {
-    width: 150;
+    width: 150px;
     height: auto;
-    border: 1px solid block;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -34,7 +33,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(25, 145, 15 / 0.5);
+    border: 1px solid rgb(25 145 15 / 0.5);
     /* 1 */
     padding: 2px;
     background-color: aquamarine;
@@ -50,9 +49,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 2px solid blocks;
+    border: 2px solid black;
     padding: 2px;
-    box-shadow: 20px;
+    box-shadow: 0 0 20px gray;
 }
 
 p {
