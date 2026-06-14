@@ -15,7 +15,7 @@
 
 header {
     display: grid;
-    grid-template-columns: repeat(4 1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
 }
 
@@ -72,37 +72,24 @@ article {
 
 .hero {
     position: relative;
-    width: 90px;
-    height: auto;
-    display: block;
+    width: 100%;
 }
 
 .hero h1 {
-    display: flex;
     position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 1;
-    background-color: var(--accent1-color);
-    color: #fff;
+    top: 10%;
+    left: 50%;
+
 }
 
-article {
-    top: 100px;
-    left: 30px;
-    padding: 2px;
-    width: 900px;
-    background-color: #fff;
-    font-weight: bold;
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 10%
 }
 
 .hero article img {
-    position: absolute;
     float: right;
-    display: flex;
-    float: right;
-    width: 900px;
-    margin-left: 10px;
+    width: 150px;
+    margin-left: 30px;
 }
