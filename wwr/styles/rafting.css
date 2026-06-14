@@ -25,10 +25,9 @@ header nav {
     font-size: 2rem;
 }
 
-header img {
+.header img {
     display: grid;
     font-size: 60px;
-    align-items: left;
     margin: 10px 5px;
 }
 
@@ -41,12 +40,14 @@ header,
 main,
 footer {
     width: 1200px;
-    margin: 30 30;
+    margin: 30 30px;
 }
 
 footer nav {
     display: grid;
     font-size: 1.5rem;
+    color: var(--accent2-color);
+
 }
 
 h1,
@@ -59,8 +60,8 @@ nav,
 p,
 section,
 article {
-    margin: 16;
-    padding: 10;
+    margin: 30px;
+    padding: 10px;
 }
 
 .socialmedia a {
@@ -72,13 +73,14 @@ article {
 
 .hero {
     position: relative;
-    width: 1200px;
+    width: 100%;
 }
 
 .hero h1 {
     position: absolute;
     top: 10%;
     left: 50%;
+    background-color: var(--accent1-color);
 
 }
 
@@ -89,7 +91,8 @@ article {
 }
 
 .hero article img {
+    position: relative;
     float: right;
-    width: 150px;
+    width: 900px;
     margin-left: 30px;
 }
