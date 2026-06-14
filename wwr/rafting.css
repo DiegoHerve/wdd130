@@ -67,15 +67,12 @@ article {
     text-decoration: none;
     width: 35px;
     height: auto;
+
 }
 
 .hero {
     position: relative;
-
-}
-
-.hero-image {
-    width: 900px;
+    width: 90px;
     height: auto;
     display: block;
 }
@@ -98,9 +95,12 @@ article {
     padding: 2px;
     width: 900px;
     background-color: #fff;
+    font-weight: bold;
 }
 
 .hero article img {
+    position: absolute;
+    float: right;
     display: flex;
     float: right;
     width: 900px;
