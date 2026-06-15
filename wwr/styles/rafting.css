@@ -280,5 +280,123 @@ footer p {
     padding: 10px 20px;
     font-weight: bold;
     border-radius: 2px;
+}
 
+/* ==========================================
+   FIXED TRIPS PAGE SPECIFIC DESIGNS
+   ========================================== */
+.trips-cta-section {
+    background-color: #e6d7c3;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.trips-cta-section p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.trips-display-section h2 {
+    color: var(--text-color);
+}
+
+/* New 5-column layout container for trips detailed packages */
+.trips-grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* 5 columns layout */
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1400px;
+    padding: 0 20px;
+}
+
+/* Individual card styles - text rests naturally beneath the photo */
+.trip-type-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    text-align: left;
+    /* Easier readability for descriptions */
+}
+
+.trip-type-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.trip-type-card h3 {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.trip-type-card p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    color: var(--text-color);
+}
+
+.trip-type-card ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.table-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+
+.trips-table th {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.trips-table td {
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+}
+
+.trip-name-cell,
+.price-cell {
+    font-weight: bold;
+}
+
+.alt-row {
+    background-color: #f2f2f2;
+}
+
+.diff-hard {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.diff-easy {
+    color: #5cb85c;
+    font-weight: bold;
+}
+
+.diff-mod {
+    color: #f0ad4e;
+    font-weight: bold;
 }
