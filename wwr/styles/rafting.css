@@ -89,6 +89,7 @@ header nav a {
 
 .history-section {
     margin-top: 40px;
+    background-color: var(--secondary-color);
 }
 
 .history-section h2 {
@@ -101,12 +102,13 @@ header nav a {
     grid-template-columns: 1fr auto 1fr;
     gap: 20px;
     align-items: center;
-    max-width: 960px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
 .history-text {
     line-height: 1.6;
+    font-weight: 400;
 }
 
 .history-image {
