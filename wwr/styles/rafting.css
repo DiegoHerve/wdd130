@@ -61,7 +61,6 @@ header nav a {
     position: absolute;
     top: 30px;
     left: 50%;
-    transform: translateX(-50%);
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px 20px;
     font-size: 2.5rem;
@@ -107,7 +106,7 @@ header nav a {
 }
 
 .history-text {
-    line-height: 1.6;
+    line-height: 3;
     font-weight: 400;
 }
 
@@ -187,5 +186,99 @@ footer img {
 
 footer p {
     margin-top: 15px;
-    font-size: 0.9rem;
+    font-size: 1rem;
+}
+
+.hero-cta-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.book-now-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: black;
+    padding: 8px 20px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.home-newsletter {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    background-color: var(--card-bg);
+    text-align: center;
+}
+
+.home-newsletter h2 {
+    margin-bottom: 15px;
+}
+
+.home-newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.home-newsletter button {
+    background-color: var(--primary-color);
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.home-feature-section {
+    background-color: #e6d7c3;
+    padding: 40px 20px;
+}
+
+.home-feature-section h2 {
+    color: black;
+}
+
+.feature-text-block {
+    color: black;
+    line-height: 1.6;
+}
+
+.feature-btn-block {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-btn-block p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.join-us-btn {
+    display: inline-flex;
+    text-decoration: none;
+    background-color: #556b2f;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 2px;
+
 }
